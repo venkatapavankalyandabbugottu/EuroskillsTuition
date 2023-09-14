@@ -1455,21 +1455,27 @@ a:focus {
 }
 
 .teacher .box-container #box .image .share{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -10rem;
   position: absolute;
-  bottom: -10rem; 
   left: 0; right: 0;
-  padding: 2rem;
+  padding: 10px;
 }
 
 .teacher .box-container #box .image .share a{
-  height: 4rem;
-  width: 4rem;
-  line-height: 4rem;
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  font-size: 28px;
   margin: 0 1rem;
   color: var(--secondary);
   background: var(--primary-color);
-  border-radius: .5rem;
+  border-radius: 50%;
 }
 
 .teacher .box-container #box .image .share a:hover{
